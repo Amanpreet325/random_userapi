@@ -10,11 +10,10 @@ function fetchUser(){
 function displayuser(user){
     const userdisplay=document.querySelector('#user');
     if(user.gender==='female'){
-        document.body.style.backgroundColor='#7d53cab9';
-
+        document.body.style.background='linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83))';
     }
     else{
-        document.body.style.backgroundColor='#ec2121af';
+        document.body.style.background='linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%)';
     }
     userdisplay.innerHTML = `
     <div class="flex justify-between">
